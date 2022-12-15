@@ -6,7 +6,7 @@
 }
 /* Body  */
 body {
-    background-color: #d9dcd6;
+    background-color: #c2ccab;
 }
 /* Header and navigation  */
 .header {
@@ -23,7 +23,7 @@ body {
     font-size: 48px;
 }
 /* Separating the letters to alternate colors  */
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
@@ -35,13 +35,12 @@ body {
     font-size: 20px;
 }
 /*  takes out the bullet points */
-.header div ul {
-    list-style-type: none;
-}
+
 /*  displaying the nav items */
 .header div ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px; 
+    list-style-type: none;
 }
 /* style for Nav links   */
 a {
@@ -91,53 +90,26 @@ p {
     background-color: #2589bd;
 }
 /*Styling for Lead Generation section   */
-.benefit-lead {
+.benefit {
     margin-bottom: 5%;
     color: #ffffff;
 }
-/* second section in lead Generation   */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* third section in lead generation   */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* Styling for H3 for the Lead Generation section  */
-.benefit-lead h3 {
+/* Styling for H3 - consolidated tags  */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+/* Styling for Lead Generation images combined tags  */
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* Styling for Lead Generation images next  */
-.benefit-lead img {
+
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 /* Styling for Search Optimization section and the following 3 flex boxes*/
 .search-engine-optimization {
     margin-bottom: 20px;

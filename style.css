@@ -25,6 +25,7 @@ header h1 {
 /* Separating the letters to alternate colors  */
 .seo {
     color: #d9dcd6;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 header nav{

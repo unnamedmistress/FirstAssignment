@@ -2,12 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
 
+}
+/* Body  */
 body {
     background-color: #d9dcd6;
 }
-
+/* Header and navigation  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,12 +17,12 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
+/*Header - Horeison - various colors   */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Separating the letters to alternate colors  */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -33,25 +34,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*  takes out the bullet points */
 .header div ul {
     list-style-type: none;
 }
-
+/*  displaying the nav items */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* style for Nav links   */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* all paragraphs  */
 p {
     font-size: 16px;
 }
-
+/* Over image styling  */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,24 +61,26 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* search engine and right boxes styling  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Lead Generation  */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*  Search engine box */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    
 }
-
+/*  Lead Generation section */
 .benefits {
+    
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -87,22 +90,22 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*Styling for Lead Generation section   */
 .benefit-lead {
-    margin-bottom: 32px;
+    margin-bottom: 5%;
     color: #ffffff;
 }
-
+/* second section in lead Generation   */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* third section in lead generation   */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Styling for H3 for the Lead Generation section  */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -117,7 +120,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Styling for Lead Generation images next  */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -135,7 +138,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Styling for Search Optimization section and the following 3 flex boxes*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +146,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    display:inline-block;
+    width:auto;
 }
 
 .online-reputation-management {
@@ -152,6 +157,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    display:inline-block;
+    height:auto;
 }
 
 .social-media-marketing {
@@ -162,7 +169,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Styling for SEO images next  */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -179,33 +186,62 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Styling for Reputation header  */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Styling for Social Media header next  */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Styling for footer  */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    position:relative;
 }
 
 .footer h2 {
     font-size: 20px;
 }
-
+/* Styling for small screens */
 @media screen and (max-width: 768px) {
-    body, div .content {
+    body, div .content .benefits .social .online {
         display:inline-block;
       flex-direction: row;
-      justify-content: space-between;
+    
+    }
+     h2, h3, p{
+        font-size: 0.70rem;
+        
+    }
+    img{
+        height:60%;
+        width: 50%;
+    }
+    .benefits{
+        width:50%;
+        height:50%;
+        float:left;
+        margin-left: 3%;
+        font-size: 12px;
+      
+ 
+    }
+    .benefit-lead h3{
+        font-size:large
+
+    }
+    .benefit-lead h3{
+        font-size:large
+
+    }.benefit-cost h3 {
+        font-size: large;
+    }
+    .benefit-brand h3{
+        font-size: large;
     }
 }

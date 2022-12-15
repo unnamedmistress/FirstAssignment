@@ -1,6 +1,6 @@
-# Code Refactor Starter Code
+## Code Refactor Starter Code
 
-# User Story
+## User Story
 
 AS A marketing agency
 
@@ -8,7 +8,7 @@ I WANT a codebase that follows accessibility standards
 
 
 
-# Acceptance Criteria
+## Acceptance Criteria
 
 GIVEN a webpage meets accessibility standards
 
@@ -32,3 +32,14 @@ WHEN I view the title element
 
 THEN I find a concise, descriptive title
 
+## Assets
+The following image demonstrates the web application's appearance and functionality:
+[Horiseon Social Services](./assets/main.png)
+
+[Deployed GitPage] (html)
+
+
+
+## Contribution
+* Starter Code from Coding Bootcamp
+(https://github.com/coding-boot-camp/urban-octo-telegram)

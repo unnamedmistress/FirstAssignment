@@ -41,6 +41,7 @@ The CSS was refactored. Tags were consolidated.
 Links were corrected.
 Media Query added for smaller screen sizes.
 Alt tags added for accessibility
+Finished Product: https://unnamedmistress.github.io/FirstAssignment/
 
 [Deployed GitPage] (html)
 

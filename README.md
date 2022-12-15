@@ -34,7 +34,13 @@ THEN I find a concise, descriptive title
 
 ## Assets
 The following image demonstrates the web application's appearance and functionality:
-[Horiseon Social Services](./assets/main.png)
+![Horiseon Social Services](Develop/assets/images/main.png)
+
+## Refactor
+The CSS was refactored. Tags were consolidated. 
+Links were corrected.
+Media Query added for smaller screen sizes.
+Alt tags added for accessibility
 
 [Deployed GitPage] (html)
 

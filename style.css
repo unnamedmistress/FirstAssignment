@@ -56,7 +56,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("Develop/assets/images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -111,7 +111,7 @@ h3 {
 
 
 /* Styling for Search Optimization section and the following 3 flex boxes*/
-.search-engine-optimization {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -122,52 +122,18 @@ h3 {
     width:auto;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    display:inline-block;
-    height:auto;
-}
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 /* Styling for SEO images next  */
-.search-engine-optimization img {
+ img {
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* Styling for h2 headers */
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* Styling for Reputation header  */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* Styling for Social Media header next  */
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+
+
 /* Styling for footer  */
 .footer {
     padding: 30px;
@@ -181,13 +147,16 @@ h3 {
 }
 /* Styling for small screens */
 @media screen and (max-width: 768px) {
-    body, div .content .benefits .social .online {
+    body, div, .content, .benefits, .social, .online {
         display:inline-block;
       flex-direction: row;
     
     }
-     h2, h3, p{
-        font-size: 0.70rem;
+     h2, h3{
+        font-size:larger;
+     }
+      p{
+        font-size: 0.95rem;
         
     }
     img{
